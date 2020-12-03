@@ -3,98 +3,105 @@
 {\colortbl;\red255\green255\blue255;\red0\green0\blue0;}
 {\*\expandedcolortbl;;\cssrgb\c0\c0\c0;}
 \margl1440\margr1440\vieww10800\viewh8400\viewkind0
-\deftab720
-\pard\pardeftab720\qj\partightenfactor0
-
-\f0\fs18 \cf2 \expnd0\expndtw0\kerning0
-ALTER TABLE datos  RENAME col1 to vivienda;\
-ALTER TABLE datos  RENAME col2 to hogar;\
-ALTER TABLE datos  RENAME col3 to nrenglon;\
-ALTER TABLE datos  RENAME col4 to P1MedidaSeguridadCuentaInternet;\
-ALTER TABLE datos  RENAME col5 to Crea/PoneContrase\'f1as;\
-ALTER TABLE datos  RENAME col6 to ProgramasAntivirus ;\
-ALTER TABLE datos  RENAME col7 to BloquearVentanasEmergentes;\
-ALTER TABLE datos  RENAME col8 to CambiaPeriodicamenteContrase\'f1as;\
-ALTER TABLE datos  RENAME col9 to NoAbrir/GuardarArchivosDesconocidos;\
-ALTER TABLE datos  RENAME col10 to Otra;\
-ALTER TABLE datos  RENAME col11to P2RecibioSpamEquipo;\
-ALTER TABLE datos  RENAME col1 2 to P3RRecibioInsultosxInternet;\
-ALTER TABLE datos  RENAME col13 to p3PersonaResponable;\
-ALTER TABLE datos  RENAME col14 to p3HoM\
-ALTER TABLE datos  RENAME col15 to p3Motivo;\
-ALTER TABLE datos  RENAME col16 top p3Frecuencia;\
-ALTER TABLE datos  RENAME col17 to 3ProvocoNervios;\
-ALTER TABLE datos  RENAME col18 to p3ProvocoMiedo;\
-ALTER TABLE datos  RENAME col19 to p3ProvocoEstres ;\
-ALTER TABLE datos  RENAME col20 to p3ProvocoDesconfianza;\
-ALTER TABLE datos  RENAME col21 top 3ProvocoFrustraci\'f3n;\
-ALTER TABLE datos  RENAME col22 to p3ProvocoInseguridad ;\
-ALTER TABLE datos  RENAME col23 to p3ProvocoEnojo ;\
-ALTER TABLE datos  RENAME col24 to p3ProvocoNada;\
-\pard\pardeftab560\qj\partightenfactor0
-
-\fs20 \cf2 ALTER TABLE datos  RENAME col25 3ProvocoOtro \
- ALTER TABLE datos  RENAME col26 P4RecibioIlamadasInsultos \
- ALTER TABLE datos  RENAME col27 P4PersonaResponable\
- ALTER TABLE datos  RENAME col28 P4HoM \
- ALTER TABLE datos  RENAME col29 P4Motivo\
-ALTER TABLE datos  RENAME col30 P4Frecuencia\
-ALTER TABLE datos  RENAME col31 P4ProvocoNervios\
-ALTER TABLE datos  RENAME col32 P4ProvocoMiedo\
-ALTER TABLE datos  RENAME col33 P4ProvocoEstres \
-ALTER TABLE datos  RENAME col34 P4ProvocoDesconfianza\
-ALTER TABLE datos  RENAME col35 P4ProvocoFrustraci\'f3n\
-ALTER TABLE datos  RENAME col36P4ProvocoInseguridad\
-ALTER TABLE datos  RENAME col37 P4ProvocoEnojo\
-ALTER TABLE datos  RENAME col38 P4ProvocoNada\
-ALTER TABLE datos  RENAME col39 P4ProvocoOtro\
-ALTER TABLE datos  RENAME col40 P5SufrioPublicacionesParaMolestar \
-ALTER TABLE datos  RENAME col41 P5PersonaResponable\
-ALTER TABLE datos  RENAME col42P5HoM\
-ALTER TABLE datos  RENAME col43 P5Motivo \
-ALTER TABLE datos  RENAME col44 P5Frecuencia\
-ALTER TABLE datos  RENAME col45 P5ProvocoNervios\
-ALTER TABLE datos  RENAME col46 P5ProvocoMiedo\
-ALTER TABLE datos  RENAME col48 P5ProvocoEstres \
-ALTER TABLE datos  RENAME col49 P5ProvocoDesconfianza\
-ALTER TABLE datos  RENAME col50 P5ProvocoFrustraci\'f3n\
-ALTER TABLE datos  RENAME col51 P5ProvocoInseguridad \
-ALTER TABLE datos  RENAME col52 P5ProvocoEnojo \
-ALTER TABLE datos  RENAME col53 P5ProvocoNada \
-ALTER TABLE datos  RENAME col54 P5ProvocoOtro \
-ALTER TABLE datos  RENAME col55 P6FueJuzgadoxInternet \
-ALTER TABLE datos  RENAME col56 P6PersonaResponable char\
-ALTER TABLE datos  RENAME col57 P6HoM char(\
-ALTER TABLE datos  RENAME col58 P6Motivo char\
-ALTER TABLE datos  RENAME col59 P6Frecuencia char\
-ALTER TABLE datos  RENAME col60 P6ProvocoNervios\
-ALTER TABLE datos  RENAME col62 1 P6ProvocoMiedo\
-ALTER TABLE datos  RENAME col63 P6ProvocoEstres \
-ALTER TABLE datos  RENAME col64 P6ProvocoDesconfianza\
-ALTER TABLE datos  RENAME col65 P6ProvocoFrustraci\'f3n \
-ALTER TABLE datos  RENAME col66 P6ProvocoInseguridad\
-ALTER TABLE datos  RENAME col67 P6ProvocoEnojo \
-ALTER TABLE datos  RENAME col68 P6ProvocoNada\
-ALTER TABLE datos  RENAME col69 P6ProvocoOtro\
-ALTER TABLE datos  RENAME col70 P7RecibioInsinuacionesTipoSexual,\
-ALTER TABLE datos  RENAME col71 P7PersonaResponable\
-ALTER TABLE datos  RENAME col72P7HoM\
-ALTER TABLE datos  RENAME col73 P7Motivo\
-ALTER TABLE datos  RENAME col74 P7Frecuencia\
-ALTER TABLE datos  RENAME col75 P7ProvocoNervios\
-ALTER TABLE datos  RENAME col76 P7ProvocoMiedo\
-ALTER TABLE datos  RENAME col77 P7ProvocoEstres\
-ALTER TABLE datos  RENAME col78 P7ProvocoDesconfianza\
-ALTER TABLE datos  RENAME col79 P7ProvocoFrustraci\'f3n\
-ALTER TABLE datos  RENAME col80 P7ProvocoInseguridad\
-P7ProvocoEnojo\
-ALTER TABLE datos  RENAME col81P7ProvocoNada \
-\
-\
-\
+\deftab560
 \pard\pardeftab560\partightenfactor0
 
-\fs12 \cf2 \
+\f0\fs24 \cf2 \expnd0\expndtw0\kerning0
+P8FalsificaronSuCuentaParaMolestar char(12) ,\
+P8PersonaResponable char(22),\
+P8HoM char(16),\
+P8Motivo char(25),\
+P8Frecuencia char(18),\
+P8ProvocoNervios char(11),\
+P8ProvocoMiedo char(11),\
+P8ProvocoEstres char(11),\
+P8ProvocoDesconfianza char(11),\
+P8ProvocoFrustraci\'f3n char(11),\
+P8ProvocoInseguridad char(11),\
+P8ProvocoEnojo char(11),\
+P8ProvocoNada char(11),\
+P8ProvocoOtro char(11),\
+P9RecibioMensajesDeCuentasFalsas char(12) ,\
+P9PersonaResponable char(22),\
+P9HoM char(16),\
+P9Motivo char(25),\
+P9Frecuencia char(18),\
+P9ProvocoNervios char(11),\
+P9ProvocoMiedo char(11),\
+P9ProvocoEstres char(11),\
+P9ProvocoDesconfianza char(11),\
+P9ProvocoFrustraci\'f3n char(11),\
+P9ProvocoInseguridad char(11),\
+P9ProvocoEnojo char(11),\
+P9ProvocoNada char(11),\
+P9ProvocoOtro char(11),\
+P10VigilaronSusCuentasXMolestar char(12) ,\
+P10PersonaResponable char(22),\
+P10HoM char(16),\
+P10Motivo char(25),\
+P10Frecuencia char(18),\
+P10ProvocoNervios char(11),\
+P10ProvocoMiedo char(11),\
+P10ProvocoEstres char(11),\
+P10ProvocoDesconfianza char(11),\
+P10ProvocoFrustraci\'f3n char(11),\
+P10ProvocoInseguridad char(11),\
+P10ProvocoEnojo char(11),\
+P10ProvocoNada char(11),\
+P10ProvocoOtro char(11),\
+P11RecibioProvocacionesConEsperaReaccionNegativa char(12) ,\
+P11PersonaResponable char(22),\
+P11HoM char(16),\
+P11Motivo char(25),\
+P11Frecuencia char(18),\
+P11ProvocoNervios char(12),\
+P11ProvocoMiedo char(12),\
+P11ProvocoEstres char(12),\
+P11ProvocoDesconfianza char(12),\
+P11ProvocoFrustraci\'f3n char(12),\
+P11ProvocoInseguridad char(12),\
+P11ProvocoEnojo char(12),\
+P11ProvocoNada char(12),\
+P11ProvocoOtro char(12),\
+P12RecibioContenidoSexualParaMolestar char(12) ,\
+P12PersonaResponable char(22),\
+P12HoM char(16),\
+P12Motivo char(25),\
+P12Frecuencia char(18),\
+P12ProvocoNervios char(11),\
+P12ProvocoMiedo char(11),\
+P12ProvocoEstres char(11),\
+P12ProvocoDesconfianza char(11),\
+P12ProvocoFrustraci\'f3n char(11),\
+P12ProvocoInseguridad char(11),\
+P12ProvocoEnojo char(11),\
+P12ProvocoNada char(11),\
+P12ProvocoOtro char(11),\
+BloqueoComoMedidaPreventiva char(18),\
+CambiarCuentaComoMedidaPreventiva char(18),\
+EliminoLaPublicaci\'f3nComoMedidaPreventiva char(18),\
+EnfrentarloConElResponsableComoMedidaPreventiva char(18),\
+DenunciarAlMpComoMedidaPreventiva char(18),\
+ReportarAnteElProveedorPlataformaMedidaPreventiva char(30),\
+InformarPersonaCercanaMedidaPreventiva char(22),\
+IgnorarloMedidaPreventiva char(15),\
+OtraMedidaPreventiva char(18),\
+P14ImportanciaCuidarInformacionDeInternet char(26),\
+P15CuantoConsideraQueLaProtege char(25),\
+FactorExpansionMociba numeric(15),\
+Edad numeric(8),\
+Entidad numeric(8),\
+UnidadPrimariaDeMuestreo numeric(6),\
+EstratodeDise\'f1oMuestral numeric(6),\
+DominioUrbano/Rural char(39),\
+Tama\'f1oLocalidad char(45),\
+EstratoSocioDemografico char(26),\
+Sexo char(15),\
+NivelEscolar char(21),\
+Grado char(31),\
+P16Estos3MesesUtilizoInternet char(11),\
+P17HorasAlDiaEnInternet numeric(7),
+\fs12 \
 \pard\pardeftab560\qj\partightenfactor0
 
 \fs20 \cf2 \
